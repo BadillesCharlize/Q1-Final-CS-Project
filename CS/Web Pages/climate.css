@@ -67,3 +67,16 @@ p
 	text-align: justified;
 	padding-top: 30px;
 	font-size: 30px;
+}
+
+.sprite {
+	background: url('flag.jpg') no-repeat -3px -6px;
+	width: 100px;
+	height: 100px;
+  animation: flag 0.50s steps(11) infinite;
+}
+
+@keyframes flag{
+  from{background-position-x:-3x;}
+  to{background-position-x:-316px;}
+}
