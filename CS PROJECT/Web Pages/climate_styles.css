@@ -1,0 +1,188 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #e0f7fa 0%, #f1f8e9 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background: #2e7d32;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.logo {
+  height: 60px;
+  margin-bottom: .5rem;
+}
+
+.tagline {
+  font-size: 1.2em;
+  font-style: italic;
+  color: #b2dfdb;
+}
+
+.campaign-info {
+  text-align: center;
+  margin: 2rem auto 1rem auto;
+  max-width: 500px;
+  background: #a7ffeb;
+  padding: 1rem 2rem;
+  border-left: 6px solid #2e7d32;
+  border-radius: 6px;
+  font-size: 1.1em;
+}
+
+.signup-form, .profile-card {
+  background: #fff;
+  padding: 2rem 2.5rem 1.5rem 2.5rem;
+  max-width: 420px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 14px rgba(46,125,50,0.10);
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 0.45rem;
+  border: 1px solid #80cbc4;
+  border-radius: 4px;
+  font-size: 1em;
+  background: #f1f8e9;
+  transition: border 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: #2e7d32;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.required {
+  color: #d32f2f;
+  font-weight: bold;
+  margin-left: 0.2em;
+}
+
+.radio-group label {
+  display: inline-block;
+  margin-right: 1em;
+  font-weight: normal;
+}
+
+button[type="submit"], .back-link {
+  background: #2e7d32;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7em 2em;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-top: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s;
+}
+
+button[type="submit"]:hover, .back-link:hover {
+  background: #1b5e20;
+}
+
+.error {
+  color: #d32f2f;
+  font-size: 0.95em;
+  margin-left: 0.7em;
+  vertical-align: middle;
+  position: absolute;
+  right: 0;
+  top: 2.1em;
+}
+
+.profile-main {
+  margin-top: 2rem;
+}
+
+.profile-card h2 {
+  color: #2e7d32;
+}
+
+.profile-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-card li {
+  margin-bottom: 1rem;
+}
+
+.profile-card #profile-reason {
+  background: #a7ffeb;
+  padding: 0.8em 1em;
+  border-radius: 6px;
+  margin-top: 0.5em;
+}
+
+@media (max-width: 520px) {
+  .signup-form, .profile-card, .campaign-info {
+    padding: 1rem;
+    max-width: 95vw;
+  }
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(32, 128, 0);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+a:hover {
+  background-color: rgb(0, 77, 153);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+
+.active {
+  background-color: rgb(32, 128, 0);
+}
+
+
